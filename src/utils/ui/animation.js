@@ -1,0 +1,31 @@
+export const getRandomAnimation = () =>
+	[
+		/*'bounce',
+		'bounceDown',
+		'bounceLeft',
+		'bounceRight',
+		'bounceUp',*/
+		'fade'/*,
+		'fadeDown',
+		'fadeDownBig',
+		'fadeLeft',
+		'fadeLeftBig',
+		'fadeRight',
+		'fadeRightBig',
+		'fadeUp',
+		'fadeUpBig',
+		'rotate',
+		'rotateDownLeft',
+		'rotateDownRight',
+		'rotateUpLeft',
+		'rotateUpRight',
+		'slideDown',
+		'slideLeft',
+		'slideRight',
+		'slideUp',
+		'zoom',
+		'zoomDown',
+		'zoomLeft',
+		'zoomRight',
+		'zoomUp'*/
+	][Math.floor(Math.random() * 1)]

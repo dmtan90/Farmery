@@ -1,0 +1,6 @@
+{
+	"logLevel": "debug",
+	"dir": "logs",
+	"projectName": "Farmery",
+	"ip": "0.0.0.0"
+}

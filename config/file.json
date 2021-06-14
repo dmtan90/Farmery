@@ -1,0 +1,18 @@
+{
+	"port":8000,
+	"avatar":{
+		"user":"http://<domain name or IP>:8000/common/img/user/avatar.png",
+		"family":"http://<domain name or IP>:8000/common/img/family/avatar.png",
+		"path":{
+			"base":"/home/ubuntu/vkist/assets/",
+			"export":"/home/ubuntu/vkist/assets/export/",
+			"user":"/home/ubuntu/vkist/assets/avatar/user/",
+			"family":"/home/ubuntu/vkist/assets/avatar/family/"
+		},
+		"url":{
+			"user":"http://<domain name or IP>:8000/avatar/user/",
+			"family":"http://<domain name or IP>:8000/avatar/family/",
+			"export":"http://<domain name or IP>:8000/export/"
+		}
+	}
+}

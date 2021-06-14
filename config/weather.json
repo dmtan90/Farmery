@@ -1,0 +1,16 @@
+{
+	"key":"1ba5a6ed532d4b54ac7ac8b1e5fd6cad",
+	"cityID":"https://search.heweather.com/find",
+	"group":"vn",
+
+	"forcast":"https://free-api.heweather.com/s6/weather/forecast",
+	"now":"https://free-api.heweather.com/s6/weather/now",
+	"hourly":"https://free-api.heweather.com/s6/weather/hourly",
+	"lifeStyle":"https://free-api.heweather.com/s6/weather/lifestyle",
+	"weather":"https://free-api.heweather.com/s6/weather",
+
+	"airNow":"https://free-api.heweather.com/s6/air/now",
+	"air":"https://free-api.heweather.com/s6/air",
+
+	"sun":"https://free-api.heweather.com/s6/solar/sunrise-sunset"
+}

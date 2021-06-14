@@ -1,0 +1,9 @@
+{
+	"host":"mqtt.nacentech.com",
+	"port": 1883,
+	"clientId":"vkist",
+	"subscribeTopics":["farmery/gateway"],
+	"publicTopics":["farmery/to-gateway"],
+	"username":"vkist",
+	"password":"nacentech.com"
+}

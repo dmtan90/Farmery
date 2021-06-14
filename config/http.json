@@ -1,0 +1,160 @@
+{
+  	"ip": "IP",
+	"port": "3001",
+	"home": "http://<domain name or IP>/",
+  	"baseUrl": "http://<domain name or IP>/",
+  	"api": {
+	    "login": "/api/login",
+	    "registry": "api/registry",
+	    "captcha": "api/captcha",
+	    "exist": "/api/exist",
+	    "avatar": "/api/avatar"
+  	},
+  	"auth": {
+		"userInfo": "/auth/userInfo",
+		"audio": "/auth/audio",
+		"org": {
+			"get": "/auth/org/get",
+			"gets": "/auth/org/gets",
+			"count": "/auth/org/count",
+			"countUser": "/auth/org/countUser",
+			"getOwnOrgs": "/auth/org/getOwnOrgs",
+			"getShareOrgs": "/auth/org/getShareOrgs",
+			"getShareAdminOrgs": "/auth/org/getShareAdminOrgs",
+			"getShareUserOrgs": "/auth/org/getShareUserOrgs",
+			"search": "/auth/org/search",
+			"exist": "/auth/org/exist",
+			"create": "/auth/org/create",
+			"update": "/auth/org/update",
+			"delete": "/auth/org/delete",
+			"registerMember": "/auth/org/registerMember"
+		},
+		"user":{
+			"search":"/auth/user/search"
+		},
+    	"farm": {
+			"get": "/auth/farm/get",
+			"gets": "/auth/farm/gets",
+			"count": "/auth/farm/count",
+			"getOwnFarms": "/auth/farm/getOwnFarms",
+			"getShareFarms": "/auth/farm/getShareFarms",
+			"getShareAdminFarms": "/auth/farm/getShareAdminFarms",
+			"getShareUserFarms": "/auth/farm/getShareUserFarms",
+			"search": "/auth/farm/search",
+			"exist": "/auth/farm/exist",
+			"create": "/auth/farm/create",
+			"update": "/auth/farm/update",
+			"delete": "/auth/farm/delete",
+			"member": "/auth/farm/member",
+			"invite": "/auth/farm/invite"
+		},
+		"zone": {
+			"get": "/auth/zone/get",
+			"gets": "/auth/zone/gets",
+			"count": "/auth/zone/count",
+			"getZoneByFarm": "/auth/zone/getZoneByFarm",
+			"getTypes": "/auth/zone/getTypes",
+			"getUnits": "/auth/zone/getUnits",
+			"getCultivations": "/auth/zone/getCultivations",
+			"create": "/auth/zone/create",
+			"update": "/auth/zone/update",
+			"delete": "/auth/zone/delete",
+			"rename": "/auth/zone/rename"
+		},
+		"crop": {
+			"get": "/auth/crop/get",
+			"gets": "/auth/crop/gets",
+			"count": "/auth/crop/count",
+			"getUnits": "/auth/crop/getUnits",
+			"getCropByFarm": "/auth/crop/getCropByFarm",
+			"create": "/auth/crop/create",
+			"update": "/auth/crop/update",
+			"delete": "/auth/crop/delete",
+			"rename": "/auth/crop/rename",
+			"getTimeline": "/auth/crop/Timeline",
+			"getTimelines": "/auth/crop/getTimelines",
+			"createTimeline": "/auth/crop/createTimeline",
+			"updateTimeline": "/auth/crop/updateTimeline",
+			"deleteTimeline": "/auth/crop/deleteTimeline",
+			"exportTimeline": "/auth/crop/exportTimeline"
+		},
+		"plant": {
+			"get": "/auth/plant/get",
+			"gets": "/auth/plant/gets",
+			"count": "/auth/plant/count",
+			"create": "/auth/plant/create",
+			"update": "/auth/plant/update",
+			"delete": "/auth/plant/delete"
+		},
+		"device": {
+			"get": "/auth/device/get",
+			"gets": "/auth/device/gets",
+			"count": "/auth/device/count",
+			"create": "/auth/device/create",
+			"update": "/auth/device/update",
+			"delete": "/auth/device/delete",
+			"exist": "/auth/device/exist",
+			"getByRelayId": "/auth/device/getByRelayId",
+			"getBySensorId": "/auth/device/getBySensorId",
+			"getTimeline": "/auth/device/Timeline",
+			"getTimelines": "/auth/device/getTimelines",
+			"createTimeline": "/auth/device/createTimeline",
+			"updateTimeline": "/auth/device/updateTimeline",
+			"deleteTimeline": "/auth/device/deleteTimeline",
+			"exportTimeline": "/auth/device/exportTimeline"
+		},
+		"sensor":{
+			"getSeries":"/auth/sensor/timeseries",
+			"update":"/auth/sensor/update",
+			"getThreshold": "/auth/sensor/getThreshold",
+			"getThresholds": "/auth/sensor/getThresholds",
+			"getThresholdsByDeviceId": "/auth/sensor/getThresholdsByDeviceId",
+			"setThreshold": "/auth/sensor/setThreshold",
+			"updateThreshold":"/auth/sensor/updateThreshold",
+			"deleteThreshold":"/auth/sensor/deleteThreshold"
+		},
+		"relay":{
+			"getSeries":"/auth/relay/timeseries",
+			"setState": "/auth/relay/setState",
+			"update":"/auth/relay/update",
+			"getTimer": "/auth/relay/getTimer",
+			"getTimersByDeviceId": "/auth/relay/getTimersByDeviceId",
+			"getTimers": "/auth/relay/getTimers",
+			"setTimer": "/auth/relay/setTimer",
+			"updateTimer":"/auth/relay/updateTimer",
+			"deleteTimer":"/auth/relay/deleteTimer"
+		},
+		"devicemodel":{
+			"get": "/auth/devicemodel/get",
+			"gets": "/auth/devicemodel/gets",
+			"count": "/auth/devicemodel/count",
+			"create": "/auth/devicemodel/create",
+			"update": "/auth/devicemodel/update",
+			"delete": "/auth/devicemodel/delete",
+			"getSensorType": "/auth/devicemodel/getSensorType",
+			"getRelayType": "/auth/devicemodel/getRelayType"
+		},
+		"ifttt":{
+			"get": "/auth/ifttt/get",
+			"gets": "/auth/ifttt/gets",
+			"create": "/auth/ifttt/create",
+			"update": "/auth/ifttt/update",
+			"delete": "/auth/ifttt/delete"
+		},
+		"news":{
+			"family":"/auth/news/family",
+			"electric":"/auth/news/electric"
+		},
+		"notice":{
+			"family":"/auth/notice/family"
+		},
+		"script":"/auth/script",
+		"feedback":"/auth/feedback",
+		"usagelog":"/auth/usagelog",
+		"forecast":{
+			"bulb": "/auth/forecast/bulb",
+			"bulbs": "/auth/forecast/bulbs"
+		}
+  	}
+
+}

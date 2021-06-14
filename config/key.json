@@ -1,0 +1,4 @@
+{
+	"privateKey":"/home/ubuntu/vkist/config/rsa_private_key.pem",
+	"publicKey": "/home/ubuntu/vkist/config/rsa_public_key.pem"
+}

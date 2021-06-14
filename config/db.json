@@ -1,0 +1,3 @@
+{
+	"url": "mongodb://<username>:<password>@<domain name or IP>:<port>/<database>?authSource=admin"
+}

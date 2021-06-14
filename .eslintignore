@@ -1,0 +1,4 @@
+**/*.min.js
+
+**/assets/js/*.js
+**/settings.json
