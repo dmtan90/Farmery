@@ -68,7 +68,7 @@ const getLocationOrigin = () => {
 }
 
 const config = {
-	googleMapKey: 'AIzaSyAf5dThDkpJDkCL5OsA1yE3lrV1HQafkXk',
+	googleMapKey: '',
 	getLocationOrigin
 }
 window.WKConfig = config
